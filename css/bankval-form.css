@@ -1,0 +1,36 @@
+#bankval-form .input-group {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column
+}
+
+#bankval-form .input-group label {
+    padding-bottom: .2rem;
+}
+
+#bankval-form .response-group {
+    display: none;
+    justify-content: space-between;
+    border: solid 1px #ccc;
+    padding: .1rem;
+    margin: 1rem 0;
+}
+
+#bankval-form .response-group .response-element {
+    padding: 0 .5rem;
+}
+
+#bankval-form .response-group #closeButton {
+    cursor: pointer;
+}
+
+#bankval-form .input-group a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 600px) {
+
+    #bankval-form .submit-group {
+        display: block;
+    }
+}
